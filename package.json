@@ -1,0 +1,13 @@
+{
+  "name": "chargeshield-candidate-task",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start:api": "npm run dev --prefix api",
+    "start:web": "npm run dev --prefix web",
+    "test:api": "npm run test --prefix api",
+    "test:web": "npm run test --prefix web",
+    "build:api": "npm run build --prefix api",
+    "build:web": "npm run build --prefix web"
+  }
+}
